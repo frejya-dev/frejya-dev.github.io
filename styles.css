@@ -1,0 +1,16 @@
+body {
+    background: #f0d39d;
+    font-family: 'Bebas Neue', cursive;
+    color: #222222;
+    line-height: 1.5;
+}
+header {
+    border-bottom: 1px solid #222222;
+}
+h1 {
+    font-size: 1.125rem;
+}
+h2 {
+    font-size: 3rem;
+    padding: 1.875em 0;
+}
