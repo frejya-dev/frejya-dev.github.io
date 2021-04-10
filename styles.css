@@ -1,0 +1,214 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    color: #404040;
+}
+nav#site-navigation {
+    position: absolute;
+    z-index: 9;
+}
+.main-navigation {
+    display: block;
+    width: 100%;
+}
+.menu-toggle {
+    background: transparent;
+    width: 40px;
+    height: 23px;
+    border: 3px solid rgba(20, 20, 20, 1);
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    position: relative;
+    z-index: 999999999;
+    float: right;
+    top: 2em;
+    right: 1em;
+}
+button {
+    border: 1px solid;
+    border-color: #ccc #ccc #bbb;
+    border-radius: 3px;
+    background: #e6e6e6;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1;
+    padding: 0.6em 1em 0.4em;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+.page article {
+    background: #ffff;
+    padding: 1em 3em 2em;
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+}
+@media (min-width: 600px) {
+.page article {
+    width: 80%;
+    padding-bottom: 4em;
+    }
+}
+.home .my-intro {
+    height: 85vh;
+    width: 100%;
+    background: white;
+    margin: 15% 0 0 0;
+}
+@media (min-width: 600px) {
+    .home .my-intro {
+    width: 80%;
+    margin-left: auto;
+    }
+}
+.entry-content header {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+}
+@media (min-width: 600px) {
+    .entry-content header {
+        width: 75%;
+    }
+}
+.info h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+@media (min-width: 992px) {
+    .info h2 {
+    font-size: 12vw;
+    padding-left: 0.5em;
+    }
+}
+.info h3 {
+    font-size: 1.3em;
+    margin-bottom: 10%;
+}
+@media (min-width: 992px) {
+    .info h3 {
+        text-align: center;
+    }
+}
+.contact {
+    margin: 10% 0 0 0;
+}
+.contact h2 {
+    color: #5f5f5f;
+    font-weight: 300;
+    margin: 0;
+    margin: 4% 0 2%;
+    font-size: 2.3rem;
+    padding-left: 1em;
+}
+@media (min-width: 600px) {
+    .contact h2 {
+    padding-left: 0.2em;
+    }
+}
+@media (min-width: 992px) {
+    .contact h2 {
+        text-align: center;
+        padding: 0;
+    }
+}
+.contact p {
+    margin: 0;
+    padding-left: 2.3em;
+}
+@media (min-width: 600px) {
+    .contact p {
+        margin-bottom: 2em;
+    }
+}
+@media (min-width: 992px) {
+    .contact p {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+a {
+    display: inline-block;
+    color: #404040;
+    text-decoration: none;
+    transition: ease .8s all;
+    padding: 5px 10px;
+    border: 1px solid #00000059;
+    font-weight: 700;
+    margin: .5em 0;
+}
+section {
+    margin-top: 15vh;
+    width: auto;
+    background: #ffffff;
+    margin: 15vh auto auto 0;
+}
+@media (min-width: 600px) {
+    section {
+        width: 75%;
+        margin: auto;
+    }
+}
+@media (min-width: 768px) {
+    section {
+        margin: 4em auto;
+    }
+}
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 3em;
+}
+.about-me h1 {
+    font-size: 2.3em;
+    margin-bottom: 2%;
+    color: #5f5f5f;
+}
+.about-me p {
+    margin-bottom: 3%;
+}
+.about-me .about-me-summary {
+    margin-bottom: 5%;
+}
+.skills-container {
+    margin-top: 15%;
+}
+@media (min-width: 600px) {
+    .skills-container {
+        text-align: right;
+        padding-right: 3em;
+    }
+}
+.about-me h2 {
+    font-size: 1.3em;
+}
+footer {
+    background: #ffffff;
+    margin-top: 15vh;
+    padding: 2% 15%;
+}
+footer#colophon {
+    padding: 3% 3%;
+    width: auto;
+}
+@media (min-width: 600px) {
+    footer#colophon {
+        width: 69%;
+        margin: auto;
+    }
+}
+@media (min-width: 768px) {
+    footer#colophon {
+    margin: 4em auto;
+    }
+}
