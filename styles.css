@@ -109,6 +109,7 @@ button {
     margin: 0;
     margin: 15% 0 2%;
     font-size: 2.3rem;
+    padding-left: 1em;
 }
 @media (min-width: 600px) {
     .contact h2 {
@@ -123,11 +124,11 @@ button {
 }
 .contact p {
     margin: 0;
+    padding-left: 2.3em;
 }
 @media (min-width: 600px) {
     .contact p {
         margin-bottom: 2em;
-        padding-left: 2.3em;
     }
 }
 @media (min-width: 992px) {
