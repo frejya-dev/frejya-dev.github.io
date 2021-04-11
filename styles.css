@@ -3,43 +3,14 @@ body {
     background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
     color: #404040;
 }
-nav#site-navigation {
-    position: absolute;
-    z-index: 9;
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
 }
-.main-navigation {
-    display: block;
-    width: 100%;
-}
-.menu-toggle {
-    background: transparent;
-    width: 40px;
-    height: 23px;
-    border: 3px solid rgba(20, 20, 20, 1);
-    border-left: 0;
-    border-right: 0;
-    border-radius: 0;
-    position: relative;
-    z-index: 999999999;
-    float: right;
-    top: 2em;
-    right: 1em;
-}
-button {
-    border: 1px solid;
-    border-color: #ccc #ccc #bbb;
-    border-radius: 3px;
-    background: #e6e6e6;
-    color: rgba(0, 0, 0, 0.8);
-    line-height: 1;
-    padding: 0.6em 1em 0.4em;
-    -webkit-appearance: button;
-    text-transform: none;
-    overflow: visible;
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
+li {
+    padding: 0.5em;
 }
 .page article {
     background: #ffff;
@@ -83,6 +54,7 @@ button {
 .info h2 {
     font-size: 3rem;
     margin-bottom: 0;
+    text-align: center;
 }
 @media (min-width: 992px) {
     .info h2 {
@@ -93,12 +65,7 @@ button {
 .info h3 {
     font-size: 1.3em;
     margin-bottom: 10%;
-    text-align: right;
-}
-@media (min-width: 992px) {
-    .info h3 {
-        text-align: center;
-    }
+    text-align: center;
 }
 .contact {
     margin: 10% 0 0 0;
@@ -109,7 +76,6 @@ button {
     margin: 0;
     margin: 15% 0 2%;
     font-size: 2.3rem;
-    padding-left: 1em;
 }
 @media (min-width: 600px) {
     .contact h2 {
@@ -124,7 +90,7 @@ button {
 }
 .contact p {
     margin: 0;
-    padding-left: 2.3em;
+    text-align: center;
 }
 @media (min-width: 600px) {
     .contact p {
@@ -168,7 +134,7 @@ section {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding-left: 3em;
+    padding: 1.5em;
 }
 .about-me h1 {
     font-size: 2.3em;
@@ -180,6 +146,17 @@ section {
 }
 .about-me .about-me-summary {
     margin-bottom: 5%;
+}
+ul.tech-skills, ul.design-skills {
+    flex-direction: column;
+}
+ul.design-skills {
+align-items: flex-end;
+}
+@media (min-width: 600px) {
+    ul.design-skills {
+        align-items: flex-start;
+        }
 }
 .skills-container {
     margin-top: 15%;
@@ -193,12 +170,25 @@ section {
 .about-me h2 {
     font-size: 1.3em;
 }
+.about-me h2:nth-of-type(2) {
+    text-align: right;
+}
+@media (min-width: 600px) {
+    .about-me h2:nth-of-type(2) {
+        text-align: left;
+    }
+}
 .self {
     text-align: center;
 }
 img {
+max-width: 100%;
+height: auto;
+}
+@media (min-width: 600px) {
+img {
     width: 75%;
-    height: auto;
+    }
 }
 footer {
     background: #ffffff;
