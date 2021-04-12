@@ -1,13 +1,33 @@
 body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Merriweather', serif;
     background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
     color: #404040;
+}
+a {
+    display: inline-block;
+    color: #404040;
+    text-decoration: none;
+    transition: ease .8s all;
+    padding: 5px 10px;
+    border: 1px solid #00000059;
+    font-weight: 700;
+    margin: .5em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-links a {
+    border: none;
+}
+.header-links a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+    border: none;
 }
 ul {
     list-style: none;
     display: flex;
     padding: 0;
     justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
 }
 li {
     padding: 0.5em;
@@ -56,12 +76,6 @@ li {
     margin-bottom: 0;
     text-align: center;
 }
-@media (min-width: 992px) {
-    .info h2 {
-    font-size: 12vw;
-    padding-left: 0.5em;
-    }
-}
 .info h3 {
     font-size: 1.3em;
     margin-bottom: 10%;
@@ -76,6 +90,7 @@ li {
     margin: 0;
     margin: 15% 0 2%;
     font-size: 2.3rem;
+    font-family: 'Open Sans', sans-serif;
 }
 @media (min-width: 600px) {
     .contact h2 {
@@ -103,16 +118,6 @@ li {
         padding-left: 0;
     }
 }
-a {
-    display: inline-block;
-    color: #404040;
-    text-decoration: none;
-    transition: ease .8s all;
-    padding: 5px 10px;
-    border: 1px solid #00000059;
-    font-weight: 700;
-    margin: .5em 0;
-}
 section {
     margin-top: 15vh;
     width: auto;
@@ -137,6 +142,7 @@ section {
     padding: 1.5em;
 }
 .about-me h1 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.3em;
     margin-bottom: 2%;
     color: #5f5f5f;
@@ -149,6 +155,7 @@ section {
 }
 ul.tech-skills, ul.design-skills {
     flex-direction: column;
+    font-family: 'Merriweather', serif;
 }
 ul.design-skills {
 align-items: flex-end;
@@ -169,6 +176,7 @@ align-items: flex-end;
 }
 .about-me h2 {
     font-size: 1.3em;
+    font-family: 'Open Sans', sans-serif;
 }
 .about-me h2:nth-of-type(2) {
     text-align: right;
