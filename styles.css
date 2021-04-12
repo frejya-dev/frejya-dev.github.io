@@ -218,3 +218,15 @@ footer#colophon {
     margin: 4em auto;
     }
 }
+/* --- resume template styles --- */
+.resume-responsive {
+    overflow: hidden;
+    position: relative;
+}
+.resume-responsive script {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
