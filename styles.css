@@ -1,6 +1,7 @@
 body {
     font-family: 'Merriweather', serif;
-    background-image: radial-gradient(circle, #f0c3eb 0%, #c3f0c8 100%);
+    background-color: #D4C9D4;
+    background-image: linear-gradient(135deg, #D4C9D4 0%, #c9d4d4 45%, #C9D4C9 100%);
     color: #404040;
 }
 a {
@@ -9,7 +10,6 @@ a {
     text-decoration: none;
     transition: ease .8s all;
     padding: 5px 10px;
-    border: 1px solid #00000059;
     font-weight: 700;
     margin: .5em 0;
     font-family: 'Open Sans', sans-serif;
@@ -48,7 +48,7 @@ li {
 .home .my-intro {
     height: 85vh;
     width: 100%;
-    background: white;
+    background: #fff;
     margin: 15% 0 0 0;
 }
 @media (min-width: 600px) {
@@ -88,6 +88,9 @@ li {
 }
 .contact {
     margin: 10% 0 0 0;
+}
+.contact a {
+    border: 1px solid #00000059;
 }
 .contact h2 {
     color: #5f5f5f;
@@ -215,14 +218,33 @@ footer#colophon {
     }
 }
 /* --- resume template styles --- */
-.resume-responsive {
-    overflow: hidden;
-    position: relative;
+table.highlight.tab-size.js-file-line-container {
+    background: #faf9fa;
 }
-.resume-responsive script {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-    }
+.gist .gist-file {
+    padding: 1.5em;
+}
+/* --- projects template styles --- */
+ul.summary-list {
+    display: flex;
+    flex-direction: column;
+}
+li.summary-list-item {
+    border-bottom: 1.5px solid #00000059;
+}
+li.summary-list-item a {
+    text-transform: uppercase;
+}
+li.summary-list-item a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+.project-card h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+.summary-list-item p:nth-of-type(odd) {
+    font-size: 0.75rem;
+}
+.summary-list-item p:nth-of-type(even) {
+    font-family: 'Merriweather', serif;
+}
