@@ -233,6 +233,9 @@ table.highlight.tab-size.js-file-line-container {
 .gist .gist-file {
     padding: 1.5em;
 }
+section script {
+    width: 100%;
+}
 /* --- projects template styles --- */
 ul.summary-list {
     display: flex;
