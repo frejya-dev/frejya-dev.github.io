@@ -37,6 +37,7 @@ li {
 }
 .page article {
     background: #ffff;
+    opacity: 0.85;
     padding: 1em 3em 2em;
     max-width: 1000px;
     margin: auto;
@@ -52,6 +53,7 @@ li {
     height: 85vh;
     width: 100%;
     background: #fff;
+    opacity: 0.85;
     margin: 15% 0 0 0;
 }
 @media (min-width: 600px) {
@@ -62,6 +64,7 @@ li {
 }
 .entry-content header {
     background: #ffffff;
+    opacity: 0.85;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,6 +131,7 @@ section {
     margin-top: 15vh;
     width: auto;
     background: #ffffff;
+    opacity: 0.85;
     margin: 15vh auto auto 0;
 }
 @media (min-width: 600px) {
@@ -202,6 +206,7 @@ img {
 }
 footer {
     background: #ffffff;
+    opacity: 0.85;
     margin-top: 15vh;
     padding: 2% 15%;
 }
@@ -223,6 +228,7 @@ footer#colophon {
 /* --- resume template styles --- */
 table.highlight.tab-size.js-file-line-container {
     background: #faf9fa;
+    opacity: 0.85;
 }
 .gist .gist-file {
     padding: 1.5em;
