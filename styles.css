@@ -233,8 +233,16 @@ table.highlight.tab-size.js-file-line-container {
 .gist .gist-file {
     padding: 1.5em;
 }
-section script {
+.responsive-resume {
+    overflow: hidden;
+    position: relative;
+}
+.responsive-resume script {
+    left: 0;
+    top: 0;
+    height: 100%;
     width: 100%;
+    position: absolute;
 }
 /* --- projects template styles --- */
 ul.summary-list {
