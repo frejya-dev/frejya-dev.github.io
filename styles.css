@@ -1,7 +1,7 @@
 body {
     font-family: 'Merriweather', serif;
-    background-color: #a7fff0;
-    background-image: linear-gradient(-45deg, #ffa7e2 0%, #ffa7b6 46%, #ffc4a7 100%);
+    background-color: #ddd5a4;
+    background-image: linear-gradient(-45deg, #d1cbcd 0%, #e2e5ee 46%,	#ddd5a4 100%);
     color: #404040;
 	margin: 0;
 	padding: 0;
