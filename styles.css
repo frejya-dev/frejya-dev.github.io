@@ -17,13 +17,16 @@ a {
     margin: .5em 0;
     font-family: 'Open Sans', sans-serif;
 }
-.header-links a {
+a {
     border: none;
 }
-.header-links a:hover {
+a:hover {
     opacity: 0.5;
     text-decoration: underline;
     border: none;
+}
+.summary-list-item a {
+    text-decoration: underline;
 }
 ul {
     list-style: none;
