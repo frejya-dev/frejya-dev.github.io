@@ -41,6 +41,7 @@ ul {
     list-style: none;
     display: flex;
     padding: 0;
+    justify-content: space-evenly;
     font-family: 'Inter', sans-serif;
 }
 li {
