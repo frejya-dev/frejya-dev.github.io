@@ -1,10 +1,20 @@
 body {
     font-family: 'Inter', sans-serif;
-    background-color: rgb(215, 187, 212);
+    background:#ffcdd2;
     color: #000;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+}
+@media (min-width: 768px) {
+    body {
+        background: #ffc864;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        background: #c3f0c8;
+    }
 }
 a {
     display: inline-block;
@@ -80,20 +90,35 @@ li {
     }
 }
 .info h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
 }
+@media (min-width: 986px) {
+    .info h2 {
+        font-size: 5rem;
+    }
+}
 .info h3 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 3em;
     text-align: center;
+}
+@media (min-width: 502px) {
+.info h3 {
+    font-size: 2.5em;
+    }
 }
 .info p {
     text-align: center; 
     margin: 3em;
     text-transform: uppercase;
-    font-weight: 600;
     letter-spacing: 0.5rem;
+    font-size: 0.75rem;
+}
+@media (min-width: 836px) {
+    .info p {
+        font-size: 1rem;  
+    }
 }
 .contact {
     margin: 10% 0 0 0;
@@ -282,17 +307,48 @@ li.summary-list-item a:hover {
 	width: 60px;
 	height: 82px;
 	position: absolute;
-	left: 48%;
 	margin-left: 0px;
-	bottom: 5%;
-  z-index:999;
+    z-index:999;
+    left: 45%;
+    bottom: 8%;
+}
+@media (min-width: 502px) {
+    .arrow {
+        bottom: -2%;
+    }
+}
+@media (min-width: 825px) {
+.arrow {
+    bottom: 0%;
+    left: 48%;
+}
+}
+@media (min-width: 925px) {
+    .arrow {
+    bottom: -2%;
+    }
+}
+@media (min-width: 1190px) {
+    .arrow {
+    bottom: 5%;
+    }
 }
 /* set arrow styles */
 .arrow path {
-	stroke: rgb(215, 187, 212);
+	stroke:#ff818d;
 	stroke-width: 2px;
 	fill: transparent;	
 	animation: down 2s infinite;
+}
+@media (min-width: 768px) {
+    .arrow path {
+        stroke:#ff7b64;
+    }
+}
+@media (min-width: 992px) {
+    .arrow path {
+        stroke:#86e190;
+    }
 }
 /* arrow keyframe animation */
 @keyframes down{
