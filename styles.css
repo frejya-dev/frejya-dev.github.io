@@ -92,6 +92,7 @@ li {
 .info h2 {
     font-size: 3rem;
     text-align: center;
+    font-family: 'EB Garamond', serif;
 }
 @media (min-width: 986px) {
     .info h2 {
@@ -314,7 +315,7 @@ li.summary-list-item a:hover {
     font-family: 'Inter', sans-serif;
 }
 /* set arrow positioning */
-.arrow {
+/* .arrow {
 	width: 60px;
 	height: 82px;
 	position: absolute;
@@ -402,4 +403,4 @@ li.summary-list-item a:hover {
 /* arrow animation delay */
 .arrow path.a1{	animation-delay:-1s; }
 .arrow path.a2{	animation-delay:-.5s; }
-.arrow path.a3{	animation-delay:0s; }
+.arrow path.a3{	animation-delay:0s; } */
