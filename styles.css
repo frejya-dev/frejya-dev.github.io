@@ -92,7 +92,8 @@ li {
 .info h2 {
     font-size: 3rem;
     text-align: center;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
 }
 @media (min-width: 986px) {
     .info h2 {
