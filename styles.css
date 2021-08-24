@@ -1,4 +1,8 @@
 body {
+  margin: 20px;
+  font: 16px 'Open Sans', sans-serif;
+}
+body {
     font-family: 'Inter', sans-serif;
     background:#ffcdd2;
     color: #000;
@@ -157,21 +161,14 @@ li {
     }
 }
 section {
-    margin-top: 15vh;
     width: auto;
     background: #ffffff;
     opacity: 0.85;
-    margin: 15vh auto auto 0;
 }
 @media (min-width: 600px) {
     section {
         width: 75%;
         margin: auto;
-    }
-}
-@media (min-width: 768px) {
-    section {
-        margin: 4em auto;
     }
 }
 .about-me {
@@ -266,20 +263,50 @@ table.highlight.tab-size.js-file-line-container {
     background: #faf9fa;
     opacity: 0.85;
 }
-.gist .gist-file {
-    padding: 1.5em;
-}
-.responsive-resume {
-    overflow: hidden;
-    position: relative;
-}
-.responsive-resume script {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
+body .gist .gist-file {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  body .gist .gist-data {
+    border-bottom: none;
+    border-radius: 0;
+    background-color: #f1f3f5;
+  }
+  
+  body .gist .blob-wrapper {
+    border-radius: 0;
+  }
+  
+  body .gist .highlight {
+    background-color: transparent;
+    font-size: 14px;
+  }
+  
+  body .gist .highlight td {
+    padding: 5px 15px !important;
+    line-height: 1;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  body .gist tr:first-child td {
+    padding-top: 15px !important;
+  }
+  
+  body .gist tr:last-child td {
+    padding-bottom: 15px !important;
+  }
+  
+  body .gist .blob-num {
+    color: #ced4da;
+    background-color: #495057;
+    pointer-events: none;
+  }
+  
+  body .gist .gist-meta {
+    display: none;
+  }
 /* --- projects template styles --- */
 ul.summary-list {
     display: flex;
