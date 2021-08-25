@@ -164,11 +164,12 @@ section {
     width: auto;
     background: #ffffff;
     opacity: 0.85;
+    margin-top: 3em;
 }
 @media (min-width: 600px) {
     section {
         width: 75%;
-        margin: auto;
+        margin: 3em auto;
     }
 }
 .about-me {
@@ -196,10 +197,12 @@ ul.tech-skills {
     font-size: 1.2rem;
 }
 .skills-container {
-    margin-top: 5%;
+    margin-top: 15%;
+    text-align: center;
 }
-@media (min-width: 600px) {
+@media (min-width: 992px) {
     .skills-container {
+        margin-top: 5%;
         text-align: right;
         padding-right: 3em;
     }
@@ -232,7 +235,7 @@ img.image {
     width: 100%;
     height: auto;
 }
-@media (min-width: 600px) {
+@media (min-width: 992px) {
     .overlay-container img.image {
         width: 75%;
         }
@@ -248,6 +251,12 @@ img.image {
     right: 0;
     height: 100%;
     width: 100%;
+}
+@media (min-width: 992px) {
+    .overlay {
+        width: 75%;
+        left: 12.5%;
+        }
 }
 .overlay-container:hover .overlay {
     opacity: 0.85;
@@ -266,7 +275,7 @@ img.image {
 footer {
     background: #ffffff;
     opacity: 0.85;
-    margin-top: 15vh;
+    margin-top: 6vh;
     padding: 2% 15%;
 }
 footer#colophon {
