@@ -10,16 +10,16 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     body {
-        background: #ffc864;
+        background:#ffc864;
     }
 }
 @media (min-width: 992px) {
     body {
         background: #c3f0c8;
     }
-}
+} */
 .header-links a, .contact a, .summary-list-item a {
     display: inline-block;
     color: #000;
@@ -98,6 +98,7 @@ li {
     text-align: center;
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
+    margin-top: 15%;
 }
 @media (min-width: 986px) {
     .info h2 {
@@ -127,7 +128,7 @@ li {
     }
 }
 .contact {
-    margin: 10% 0 0 0;
+    margin: 10% 0;
 }
 .contact a {
     color: #fff;
@@ -164,12 +165,12 @@ section {
     width: auto;
     background: #ffffff;
     opacity: 0.85;
-    margin-top: 3em;
+    /* margin-top: 3em; */
 }
 @media (min-width: 600px) {
     section {
         width: 75%;
-        margin: 3em auto;
+        margin: auto;
     }
 }
 .about-me {
@@ -279,6 +280,7 @@ footer {
     padding: 2% 15%;
 }
 footer#colophon {
+    text-align: center;
     padding: 3% 3%;
     width: auto;
 }
@@ -291,7 +293,6 @@ footer#colophon {
 @media (min-width: 768px) {
     footer#colophon {
     margin: 4em auto;
-    text-align: center;
     }
 }
 /* --- resume template styles --- */
@@ -378,93 +379,3 @@ li.summary-list-item a:hover {
 .summary-list-item p:nth-of-type(even) {
     font-family: 'Inter', sans-serif;
 }
-/* set arrow positioning */
-/* .arrow {
-	width: 60px;
-	height: 82px;
-	position: absolute;
-	margin-left: 0px;
-    z-index:999;
-    left: 42%;
-    bottom: 13%;
-}
-@media (min-width: 400px) {
-    .arrow {
-        left: 45%;
-        bottom: 15%;
-    }
-}
-@media (min-width: 502px) {
-    .arrow {
-        bottom: 5%;
-    }
-}
-@media (min-width: 552px) {
-    .arrow {
-        bottom: 12%;
-    }
-}
-@media (min-width: 600px) {
-    .arrow {
-        bottom: 5%;
-    }
-}
-@media (min-width: 739px) {
-    .arrow {
-        bottom: 12%;
-    }
-}
-@media (min-width: 825px) {
-.arrow {
-    bottom: 13%;
-    left: 48%;
-}
-}
-@media (min-width: 925px) {
-    .arrow {
-        bottom: 20%;
-    }
-}
-@media (min-width: 987px) {
-    .arrow {
-        bottom: 17%;
-    }
-}
-@media (min-width: 1190px) {
-    .arrow {
-        bottom: -5%;
-    }
-}
-@media (min-width: 1200px) {
-    .arrow {
-        bottom: 5%;
-    }
-}
-/* set arrow styles */
-.arrow path {
-	stroke:#ff818d;
-	stroke-width: 2px;
-	fill: transparent;	
-	animation: down 2s infinite;
-}
-@media (min-width: 768px) {
-    .arrow path {
-        stroke:#ff7b64;
-    }
-}
-@media (min-width: 992px) {
-    .arrow path {
-        stroke:#86e190;
-    }
-}
-/* arrow keyframe animation */
-@keyframes down{
-0% { opacity:0 }
-25% { opacity:1 }
-75% { opacity:0 }
-100% { opacity:0 }
-}
-/* arrow animation delay */
-.arrow path.a1{	animation-delay:-1s; }
-.arrow path.a2{	animation-delay:-.5s; }
-.arrow path.a3{	animation-delay:0s; } */
