@@ -45,7 +45,7 @@ ul {
     list-style: none;
     display: flex;
     padding: 0;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     font-family: 'Inter', sans-serif;
 }
 li {
@@ -387,6 +387,15 @@ ul.summary-list {
     ul.summary-list {
         text-align: left;
     }
+}
+.projects-summary h1 {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1.5px solid #00000059;
+    padding: 1em;
+}
+.projects-summary h1:nth-of-type(2) {
+    padding: 0 0 1em 0;
 }
 li.summary-list-item {
     border-bottom: 1.5px solid #00000059;
