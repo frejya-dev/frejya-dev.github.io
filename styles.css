@@ -87,6 +87,7 @@ li {
     height: 100%;
     justify-content: center;
     margin: auto;
+    border-top-right-radius: 100%;
 }
 @media (min-width: 600px) {
     .entry-content header {
