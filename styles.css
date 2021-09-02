@@ -292,7 +292,7 @@ img.image {
         left: 12.5%;
         }
 }
-.overlay-container:hover .overlay {
+.overlay-container:hover .overlay, .overlay-container:selected .overlay {
     opacity: 0.85;
 }
 .overlay-text {
@@ -378,6 +378,10 @@ body .gist .gist-file {
     display: none;
   }
 /* --- projects template styles --- */
+section.project-section {
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 8%;
+}
 ul.summary-list {
     display: flex;
     flex-direction: column;
