@@ -165,7 +165,6 @@ section {
     width: auto;
     background: #ffffff;
     opacity: 0.85;
-    /* margin-top: 3em; */
 }
 @media (min-width: 600px) {
     section {
@@ -173,6 +172,10 @@ section {
         margin: auto;
     }
 }
+section .about-me {
+    margin-top: 3em;
+}
+
 .about-me {
     display: flex;
     justify-content: space-around;
