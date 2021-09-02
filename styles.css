@@ -450,7 +450,6 @@ figure {
     flex-direction: column;
 }
 figcaption {
-    font-style: italic;
     font-size: 0.75rem;
     font-weight: 600;
 }
