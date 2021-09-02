@@ -227,6 +227,7 @@ ul.tech-skills {
 .me p {
     text-align: left;
     padding-left: 15vw;
+    font-size: 1.25rem;
     }
 }
 .skills-container {
@@ -439,5 +440,5 @@ figcaption {
     }
 }
 .first-letter {
-    font-size: 2.25rem;
+    font-size: 2.2rem;
   }
