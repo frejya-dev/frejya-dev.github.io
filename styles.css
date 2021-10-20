@@ -4,7 +4,7 @@ body {
 }
 body {
     font-family: 'Inter', sans-serif;
-    background:#ffcdd2;
+    background: #1c5f4a;
     color: #000;
 	margin: 0;
 	padding: 0;
@@ -22,7 +22,8 @@ body {
 } */
 .header-links a, .contact a, .summary-list-item a {
     display: inline-block;
-    color: #000;
+    color: #ffffffcc;
+    font-weight: 600;
     text-decoration: none;
     transition: ease .8s all;
     padding: 10px 15px;
