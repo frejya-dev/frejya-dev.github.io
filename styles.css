@@ -22,13 +22,16 @@ body {
 } */
 .header-links a, .contact a, .summary-list-item a {
     display: inline-block;
-    color: #ffffffcc;
-    font-weight: 600;
+    color: #000;
     text-decoration: none;
     transition: ease .8s all;
     padding: 10px 15px;
     margin: .5em 0;
     font-family: 'Inter', sans-serif;
+}
+.header-links a {
+    color: #ffffffcc;
+    font-weight: 600;
 }
 .header-links a, .contact a, .summary-list-item a {
     border: none;
