@@ -31,7 +31,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 .header-links a {
-    color: #ffffffcc;
+    color: #a9a9a9;
     font-weight: 600;
 }
 .header-links a, .contact a, .summary-list-item a {
