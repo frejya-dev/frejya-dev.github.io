@@ -4,7 +4,7 @@ body {
 }
 body {
     font-family: 'Inter', sans-serif;
-    background: #FFF0E5;
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
     /* background: #1c5f4a; */
     color: #000;
 	margin: 0;
@@ -31,8 +31,9 @@ body {
     font-family: 'Inter', sans-serif;
 }
 .header-links a {
-    color: #a9a9a9;
-    font-weight: 600;
+    color: #000;
+    /* color: #a9a9a9; */
+    /* font-weight: 600; */
 }
 .header-links a, .contact a, .summary-list-item a {
     border: none;
@@ -281,7 +282,7 @@ img.image {
 }
 @media (min-width: 992px) {
     .overlay-container img.image {
-        width: 75%;
+        width: 50%;
         }
 }
 .overlay {
@@ -298,19 +299,21 @@ img.image {
 }
 @media (min-width: 992px) {
     .overlay {
-        width: 75%;
-        left: 12.5%;
+        background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+        opacity: 0.25;
+        width: 50%;
+        left: 25%;
         }
 }
-.overlay-container:hover .overlay {
+/* .overlay-container:hover .overlay {
     opacity: 0.85;
-}
+} */
 .overlay-text {
     color: white;
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -339,7 +342,7 @@ footer#colophon {
     }
 }
 /* --- resume template styles --- */
-table.highlight.tab-size.js-file-line-container {
+/* table.highlight.tab-size.js-file-line-container {
     background: #faf9fa;
     opacity: 0.85;
 }
@@ -386,7 +389,7 @@ body .gist .gist-file {
   
   body .gist .gist-meta {
     display: none;
-  }
+  } */
 /* --- projects template styles --- */
 section.project-section {
     border-top-right-radius: 8%;
