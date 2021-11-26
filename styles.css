@@ -223,9 +223,11 @@ ul.tech-skills {
 .me h1 {
     text-align: right;
     padding-right: 0.4em;
+    color: #fff;
 }
 .me p {
-    padding: 4em;
+    padding: 2em 4em 4em;
+    color: #fff;
 }
 @media (min-width: 992px) {
 .me p {
@@ -296,6 +298,7 @@ img.image {
         width: 50%;
         left: 25%;
         margin: 3em;
+        box-shadow: 48px 48px 0px 0px rgba(0,0,0,0.25);
         }
 }
 .overlay-container:hover .overlay {
@@ -359,7 +362,7 @@ ul.summary-list {
     padding: 0 0 1em 0;
 }
 li.summary-list-item {
-    padding-left: 3em;
+    padding: 0 3em;
 }
 li.summary-list-item a {
     text-transform: uppercase;
