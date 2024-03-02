@@ -19,7 +19,6 @@ body {
 }
 .header-links a {
     color: #333;
-    font-weight: 600;
 }
 .header-links a, .contact a, .summary-list-item a {
     border: none;
