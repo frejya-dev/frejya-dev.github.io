@@ -300,8 +300,8 @@ img.image {
         margin: 3em;
         }
 }
-.overlay-container:hover .overlay {
-    opacity: 0.25;
+/*.overlay-container:hover .overlay {
+    opacity: 0.25; */
 }
 .overlay-text {
     color: white;
