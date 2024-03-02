@@ -292,17 +292,14 @@ img.image {
     height: 100%;
     width: 100%;
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .overlay {
         opacity: 0.75;
         width: 50%;
         left: 25%;
         margin: 3em;
         }
-}
-/*.overlay-container:hover .overlay {
-    opacity: 0.25; */
-}
+} */
 .overlay-text {
     color: white;
     font-size: 20px;
