@@ -267,10 +267,16 @@ img.image {
     display: block;
     width: 100%;
     height: auto;
+}
 @media (min-width: 750px) {
 	img.image {
 		width: 75%;
 		margin: auto;
+	}
+}
+@media (min-width: 900px) {
+	img.image {
+		width: 65%;
 	}
 }
 footer {
