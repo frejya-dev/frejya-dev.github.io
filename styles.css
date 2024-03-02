@@ -282,9 +282,9 @@ img.image {
 }
 .overlay {
     position: absolute;
-    opacity: 0;
+    /* opacity: 0; */
     transition: .5s ease;
-    background-color: #000;
+    /* background-color: #000; */
     top: 0;
     bottom: 0;
     left: 0;
