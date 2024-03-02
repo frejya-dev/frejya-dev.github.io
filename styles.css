@@ -236,7 +236,7 @@ ul.tech-skills {
     }
 }
 .skills-container {
-    margin-top: 15%;
+    /* margin-top: 15%; */
     text-align: center;
 }
 @media (min-width: 992px) {
