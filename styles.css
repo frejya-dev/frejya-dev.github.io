@@ -276,7 +276,7 @@ img.image {
 }
 @media (min-width: 900px) {
 	img.image {
-		width: 65%;
+		width: 50%;
 	}
 }
 footer {
