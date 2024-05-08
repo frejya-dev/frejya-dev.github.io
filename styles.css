@@ -23,6 +23,13 @@ body {
 .header-links a, .contact a, .summary-list-item a {
     border: none;
 }
+.resume-responsive {
+	  position: relative;
+          overflow: hidden;
+          width: 100%;
+          padding-top: 56.25%;
+}
+
 .header-links a:hover, .contact a:hover, .summary-list-item a:hover {
     opacity: 0.5;
     text-decoration: underline;
