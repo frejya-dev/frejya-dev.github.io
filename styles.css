@@ -10,7 +10,7 @@ body {
 
 .header-links a, .contact a, .summary-list-item a {
     display: inline-block;
-    color: #000;
+    color: rgba(0, 0, 0, 0.75);
     text-decoration: none;
     transition: ease .8s all;
     padding: 10px 15px;
