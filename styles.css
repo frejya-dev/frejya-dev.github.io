@@ -10,7 +10,6 @@ body {
 
 .header-links a, .contact a, .summary-list-item a {
     display: inline-block;
-/*     color: rgba(0, 0, 0, 0.75); */
     text-decoration: none;
     transition: ease .8s all;
     padding: 10px 15px;
@@ -18,7 +17,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 .header-links a {
-    color: #333;
+    color: #222222;
 }
 .header-links a, .contact a, .summary-list-item a {
     border: none;
@@ -49,7 +48,7 @@ li {
 }
 .page article {
     padding: 1em 3em 2em;
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
     width: 100%;
 }
@@ -129,7 +128,7 @@ li {
     background: color: rgba(0, 0, 0, 0.75);
 }
 .contact h2 {
-    color: #000;
+    color: #222222;
     margin: 0;
     margin: 0 0 2%;
     font-size: 1.75rem;
@@ -179,7 +178,7 @@ section .about-me {
     font-family: 'Inter', sans-serif;
     font-size: 1.75rem;
     margin-bottom: 5%;
-    color: #000;
+    color: #222222;
     text-align: center;
 }
 @media (min-width: 992px) {
@@ -249,7 +248,7 @@ ul.tech-skills {
 }
 .about-me h2 {
     font-size: 1.75rem;
-    color: #000;
+    color: #222222;
     font-family: 'Inter', sans-serif;
 }
 .about-me h2:nth-of-type(2) {
