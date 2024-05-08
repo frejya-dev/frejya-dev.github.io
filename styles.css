@@ -2,7 +2,7 @@ body {
     margin: 20px;
     font: 16px 'Open Sans', sans-serif;
     font-family: 'Inter', sans-serif;
-    color: #000;
+    color: #222222;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -17,7 +17,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 .header-links a {
-    color: #000;
+    color: #222222;
 }
 .header-links a, .contact a, .summary-list-item a {
     border: none;
@@ -128,7 +128,7 @@ li {
     background: #222222;
 }
 .contact h2 {
-    color: #000;
+    color: #222222;
     margin: 0;
     margin: 0 0 2%;
     font-size: 1.75rem;
@@ -178,7 +178,7 @@ section .about-me {
     font-family: 'Inter', sans-serif;
     font-size: 1.75rem;
     margin-bottom: 5%;
-    color: #000;
+    color: #222222;
     text-align: center;
 }
 @media (min-width: 992px) {
@@ -248,7 +248,7 @@ ul.tech-skills {
 }
 .about-me h2 {
     font-size: 1.75rem;
-    color: #000;
+    color: #222222;
     font-family: 'Inter', sans-serif;
 }
 .about-me h2:nth-of-type(2) {
@@ -355,7 +355,7 @@ li.summary-list-item a:hover {
 }
 .github-button a {
     color: #fff;
-    background: #222;
+    background: #222222;
     display: inline-block;
     text-decoration: none;
     transition: ease .8s all;
