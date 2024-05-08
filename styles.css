@@ -2,7 +2,7 @@ body {
     margin: 20px;
     font: 16px 'Open Sans', sans-serif;
     font-family: 'Inter', sans-serif;
-    color: #000;
+    color: #222222;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -10,7 +10,7 @@ body {
 
 .header-links a, .contact a, .summary-list-item a {
     display: inline-block;
-    color: rgba(0, 0, 0, 0.75);
+/*     color: rgba(0, 0, 0, 0.75); */
     text-decoration: none;
     transition: ease .8s all;
     padding: 10px 15px;
@@ -23,13 +23,6 @@ body {
 .header-links a, .contact a, .summary-list-item a {
     border: none;
 }
-.resume-responsive {
-	  position: relative;
-          overflow: hidden;
-          width: 100%;
-          padding-top: 56.25%;
-}
-
 .header-links a:hover, .contact a:hover, .summary-list-item a:hover {
     opacity: 0.5;
     text-decoration: underline;
@@ -133,7 +126,7 @@ li {
 }
 .contact a {
     color: #fff;
-    background: #000;
+    background: color: rgba(0, 0, 0, 0.75);
 }
 .contact h2 {
     color: #000;
